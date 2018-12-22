@@ -1,0 +1,4 @@
+libmnl-dev_1.0.4-2_amd64.deb libdevel important
+libmnl0-dbgsym_1.0.4-2_amd64.deb debug optional automatic=yes
+libmnl0_1.0.4-2_amd64.deb libs important
+libmnl_1.0.4-2_amd64.buildinfo libs important

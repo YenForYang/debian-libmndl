@@ -1,0 +1,38 @@
+Format: 1.8
+Date: Wed, 05 Oct 2016 23:47:51 +0700
+Source: libmnl
+Binary: libmnl-dev libmnl0
+Built-For-Profiles: nobiarch nocheck nodoc
+Architecture: amd64
+Version: 1.0.4-2
+Distribution: unstable
+Urgency: medium
+Maintainer: Anibal Monsalve Salazar <anibal@debian.org>
+Changed-By: Neutron Soutmun <neutrons@debian.org>
+Description:
+ libmnl-dev - minimalistic Netlink communication library (devel)
+ libmnl0    - minimalistic Netlink communication library
+Closes: 839721
+Changes:
+ libmnl (1.0.4-2) unstable; urgency=medium
+ .
+   * Update debian/copyright
+     * The upstream has changed the license of libmnl from GPL-2+ to LGPL-2.1
+       Thanks to Jean-Baptiste Rouault who pointing this [1] (Closes: #839721)
+       [1] https://git.netfilter.org/libmnl/commit/?id=a2975d2
+     * Update my email and copyright year.
+Checksums-Sha1:
+ 18af50c75b95e5f6a2bb5dc3e70c726f0d01d51a 100924 libmnl-dev_1.0.4-2_amd64.deb
+ 268a4e158abcb5eac6ec04cdaee3754cc37167bc 16308 libmnl0-dbgsym_1.0.4-2_amd64.deb
+ ff0c9f7abdfbde8deb6c9eb11b5b7a74597b5ba9 28444 libmnl0_1.0.4-2_amd64.deb
+ 350fd73ccf29d98689f91f221253aa9c85ed132b 6008 libmnl_1.0.4-2_amd64.buildinfo
+Checksums-Sha256:
+ b9d1de9cf15e3452261b6b07cb61f7f0753b3ca6ff58529036927e94fa8b28b1 100924 libmnl-dev_1.0.4-2_amd64.deb
+ 61caebbbdda1c78e1088336287d9e0783903816545a94044e0490659c7556617 16308 libmnl0-dbgsym_1.0.4-2_amd64.deb
+ b150b277d539629b02aa8e286b311fd07eec0c32a7248d8802da0398987f2277 28444 libmnl0_1.0.4-2_amd64.deb
+ 4f8a9695b6c852577dd05b4bdf5604591d3127dc6542505d69e38dd110697ccc 6008 libmnl_1.0.4-2_amd64.buildinfo
+Files:
+ b621f668c1762e0d07748b9a7a4add0b 100924 libdevel important libmnl-dev_1.0.4-2_amd64.deb
+ 4d8cf85b5e23769ec1922d572a996d5e 16308 debug optional libmnl0-dbgsym_1.0.4-2_amd64.deb
+ a616e20006efae64f3c8bb2c3c61a76c 28444 libs important libmnl0_1.0.4-2_amd64.deb
+ 1c6ee4dc1619a5a7e88a4772c37a3c4a 6008 libs important libmnl_1.0.4-2_amd64.buildinfo

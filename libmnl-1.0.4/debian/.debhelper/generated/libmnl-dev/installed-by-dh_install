@@ -1,0 +1,3 @@
+debian/tmp/lib/x86_64-linux-gnu/libmnl.a
+debian/tmp/usr/include/libmnl
+debian/tmp/lib/x86_64-linux-gnu/pkgconfig/libmnl.pc

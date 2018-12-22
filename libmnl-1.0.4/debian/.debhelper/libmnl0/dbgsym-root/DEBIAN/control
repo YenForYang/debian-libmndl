@@ -1,0 +1,13 @@
+Package: libmnl0-dbgsym
+Source: libmnl
+Version: 1.0.4-2
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Anibal Monsalve Salazar <anibal@debian.org>
+Installed-Size: 35
+Depends: libmnl0 (= 1.0.4-2)
+Section: debug
+Priority: optional
+Multi-Arch: same
+Description: debug symbols for libmnl0
+Build-Ids: 3be5d184d6ef4fb9f00c66ed7ee8af2bc793625e
